@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# This is adapted form the example provided by ecmwf:
+# This is adapted from the example provided by ecmwf:
 # https://confluence.ecmwf.int/display/WEBAPI/S2S+ECMWF+reforecasts+retrieval+efficiency
 # How to use this script:
 # Specify the year of the model version. Modify the parameter year.
