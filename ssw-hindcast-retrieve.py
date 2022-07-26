@@ -84,7 +84,7 @@ def ECMWF_reforecast_cf_pl_request(hindcastDate,modelVersionDate,target):
 if __name__ == '__main__':
     pathMyDirectory = "/nfs/b0128/Users/earxzho/S2S/data/ECMWF/ssw-archive/"
     # find hindcastDates 31days before a paticular SSW event
-    for sswDate in sswlist[3:]:
+    for sswDate in sswlist:
         # Preserve data in the ssw-date file
         if os.path.exists(pathMyDirectory+f'ssw-{sswDate}'):
             os.rmdir(pathMyDirectory+f'ssw-{sswDate}')
