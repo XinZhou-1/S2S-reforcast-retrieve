@@ -9,7 +9,8 @@ MODEL=/nfs/b0128/Users/earxzho/S2S/data/ECMWF/ssw-archive
 mkdir /nfs/b0128/Users/earxzho/S2S/data/ECMWF/FINAL
 FINAL=/nfs/b0128/Users/earxzho/S2S/data/ECMWF/FINAL
 
-for runs in $(ls $MODEL)
+cd $MODEL 
+for runs in *
 do
 #put the temporal files to the given experiment, then will delete it to save disk space
 mkdir $FINAL/$runs
